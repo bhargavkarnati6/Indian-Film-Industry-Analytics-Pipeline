@@ -1,17 +1,3 @@
-"""
-FastMCP server exposing the Indian Film Industry Analytics Pipeline as
-read-only tools an MCP client (Claude Desktop, Claude Code, etc.) can call.
-
-Deliberately does NOT expose the ETL step (load_data.py) -- this server can
-query the `movies` table but never reload or overwrite it. Run the ETL
-manually via `python main.py` or `python load_data.py` when you want to
-refresh the data.
-
-Run:
-    python mcp_server.py
-
-Then point your MCP client at this file (stdio transport).
-"""
 import contextlib
 import io
 
