@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "indian-film-pipeline": {
+      "command": "/Users/bharghavkarnati6/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/indian_film_pipeline/.venv/bin/python3",
+      "args": [
+        "/Users/bharghavkarnati6/Library/CloudStorage/OneDrive-UniversityofNewBrunswick/indian_film_pipeline/mcp_server.py"
+      ]
+    }
+  }
+}
